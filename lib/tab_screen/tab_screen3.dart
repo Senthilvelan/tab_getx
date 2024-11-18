@@ -8,10 +8,10 @@ class TabScreen3 extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final controller = Get.find<TabController2>(tag: tag);
+    final controller = Get.find<TabController3>(tag: tag);
 
     return ListView.builder(
-      controller: controller.scrollController2,
+      controller: controller.scrollController3,
       itemCount: 100,
       itemBuilder: (context, index) {
         return ListTile(
@@ -22,18 +22,18 @@ class TabScreen3 extends StatelessWidget {
   }
 }
 
-class TabController2 extends GetxController {
-  late ScrollController scrollController2;
+class TabController3 extends GetxController {
+  late ScrollController scrollController3;
 
   @override
   void onInit() {
     super.onInit();
-    scrollController2 = ScrollController();
+    scrollController3 = ScrollController();
   }
 
   @override
   void onClose() {
-    scrollController2.dispose();
+    scrollController3.dispose();
     super.onClose();
   }
 }

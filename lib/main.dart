@@ -51,18 +51,22 @@ class _TabbedAppState extends State<TabbedApp> {
           BottomNavigationBarItem(
             icon: Icon(Icons.home),
             label: 'Tab 1',
+            backgroundColor: Colors.black38,
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.search),
             label: 'Tab 2',
+            backgroundColor: Colors.black38,
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.notifications),
             label: 'Tab 3',
+            backgroundColor: Colors.black38,
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.settings),
             label: 'Tab 4',
+            backgroundColor: Colors.black38,
           ),
         ],
       ),
