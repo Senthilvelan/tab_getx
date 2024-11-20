@@ -9,6 +9,6 @@ class AppBindings extends Bindings {
     Get.lazyPut(() => TabController(), tag: 'tab1');
     Get.lazyPut(() => TabController1(), tag: 'tab2');
     Get.lazyPut(() => TabController2(), tag: 'tab3');
-    Get.lazyPut(() => TabController(), tag: 'tab4');
+    Get.lazyPut(() => TabController3(), tag: 'tab4');
   }
 }
