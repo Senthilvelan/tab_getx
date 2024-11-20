@@ -2,6 +2,7 @@ import 'package:get/get.dart';
 import '../tab_screen/tab_screen.dart';
 import '../tab_screen/tab_screen1.dart';
 import '../tab_screen/tab_screen2.dart';
+import '../tab_screen/tab_screen3.dart';
 
 class AppBindings extends Bindings {
   @override
